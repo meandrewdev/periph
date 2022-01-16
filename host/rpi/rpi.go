@@ -468,7 +468,7 @@ func (f *features) init(v uint32) error {
 	case boardAlpha:
 	case boardCM1:
 		// TODO: define CM1 SODIMM header if anyone ever needs it. Please file an
-		// issue at https://github.com/google/periph/issues/new/choose
+		// issue at https://github.com/meandrewdev/periph/issues/new/choose
 	case board3B:
 		f.hdrP1P40 = true
 		f.hdrAudio = true

@@ -5,17 +5,21 @@
 // This file contains the parallelized driver loading logic. It is meant to be
 // load the drivers as fast as possible by parallelising work.
 
+//go:build !tinygo
 // +build !tinygo
 
 package periph
 
 import (
 	"errors"
+	"fmt"
 	"strconv"
 	"sync"
 )
 
 func initImpl() (*State, error) {
+	fmt.Println("start init drivers:")
+	fmt.Println(byName)
 	state = &State{}
 	// At this point, byName is guaranteed to be immutable.
 	cD := make(chan Driver)
@@ -81,6 +85,7 @@ func (s *stage) loadParallel(loaded map[string]struct{}, cD chan<- Driver, cS, c
 			wg.Add(1)
 			go func(n string, d Driver) {
 				defer wg.Done()
+				fmt.Println("init driver: " + d.String())
 				if ok, err := d.Init(); ok {
 					if err == nil {
 						cD <- d

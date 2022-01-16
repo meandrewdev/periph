@@ -341,10 +341,10 @@ func (s *SmokeTest) testWaitForEdge(p1, p2 gpio.PinIO) (err error) {
 		return fmt.Errorf("wait returned too early after %s; < %s", d, short)
 	} else if d >= timeout {
 		//return fmt.Errorf("wait timed out after %s; >= %s", d, timeout)
-		fmt.Println("Known failure due to https://github.com/google/periph/issues/323")
+		fmt.Println("Known failure due to https://github.com/meandrewdev/periph/issues/323")
 		return nil
 	}
-	return errors.New("unexpected success; https://github.com/google/periph/issues/323")
+	return errors.New("unexpected success; https://github.com/meandrewdev/periph/issues/323")
 	/* Need to comment out otherwise go vet will be unhappy.
 	s.slowSleep()
 

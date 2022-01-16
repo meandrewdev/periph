@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"runtime/debug"
 	"sort"
 	"strconv"
 	"strings"
@@ -339,6 +340,8 @@ func (d *driverI2C) After() []string {
 }
 
 func (d *driverI2C) Init() (bool, error) {
+	fmt.Println("init i2c driver")
+	debug.PrintStack()
 	// Do not use "/sys/bus/i2c/devices/i2c-" as Raspbian's provided udev rules
 	// only modify the ACL of /dev/i2c-* but not the ones in /sys/bus/...
 	prefix := "/dev/i2c-"
@@ -349,6 +352,9 @@ func (d *driverI2C) Init() (bool, error) {
 	if len(items) == 0 {
 		return false, errors.New("no I²C bus found")
 	}
+
+	fmt.Println("found i2c drivers")
+	fmt.Println(items)
 	// Make sure they are registered in order.
 	sort.Strings(items)
 	for _, item := range items {

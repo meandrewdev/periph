@@ -13,6 +13,7 @@ package periph // import "github.com/meandrewdev/periph"
 
 import (
 	"errors"
+	"fmt"
 	"strconv"
 	"strings"
 	"sync"
@@ -94,6 +95,7 @@ func Init() (*State, error) {
 	if state != nil {
 		return state, nil
 	}
+	fmt.Println("periph init")
 	return initImpl()
 }
 

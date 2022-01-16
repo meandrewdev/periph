@@ -187,7 +187,7 @@ func TestManual_Listen_Socket(t *testing.T) {
 		t.Fatal(err)
 	}
 	expectChan(t, c, start)
-	// This is part of https://github.com/google/periph/issues/323
+	// This is part of https://github.com/meandrewdev/periph/issues/323
 	//notExpectChan(t, c, "should have produced a single event")
 	// Instead consume any extraneous event.
 	select {

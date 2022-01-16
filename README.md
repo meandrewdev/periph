@@ -8,21 +8,18 @@ Join us for a chat on
 [gophers.slack.com/messages/periph](https://gophers.slack.com/messages/periph),
 get an [invite here](https://invite.slack.golangbridge.org/).
 
-
 ## New home
 
 The source code is now hosted in multiple repositories at
 [github.com/periph](https://github.com/periph). See
 https://periph.io/news/2020/a_new_start/ for more details.
 
-
 ## Authors
 
 `periph` was initiated with ❤️️ and passion by [Marc-Antoine
 Ruel](https://github.com/maruel). The full list of contributors is in
-[AUTHORS](https://github.com/google/periph/blob/master/AUTHORS) and
-[CONTRIBUTORS](https://github.com/google/periph/blob/master/CONTRIBUTORS).
-
+[AUTHORS](https://github.com/meandrewdev/periph/blob/master/AUTHORS) and
+[CONTRIBUTORS](https://github.com/meandrewdev/periph/blob/master/CONTRIBUTORS).
 
 ## Disclaimer
 
