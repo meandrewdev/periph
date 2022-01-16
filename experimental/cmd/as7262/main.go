@@ -13,10 +13,10 @@ import (
 	"syscall"
 	"time"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/experimental/devices/as7262"
-	"periph.io/x/periph/host"
+	"github.com/meandrewdev/periph/conn/i2c/i2creg"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/experimental/devices/as7262"
+	"github.com/meandrewdev/periph/host"
 )
 
 func mainImpl() error {

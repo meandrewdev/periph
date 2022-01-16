@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/spi"
 )
 
 // Card authentication status enum.

@@ -11,14 +11,14 @@ import (
 	"image/color"
 	"testing"
 
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiotest"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spitest"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
+	"github.com/meandrewdev/periph/conn/conntest"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio/gpiotest"
+	"github.com/meandrewdev/periph/conn/i2c/i2ctest"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn/spi/spitest"
+	"github.com/meandrewdev/periph/devices/ssd1306/image1bit"
 )
 
 func TestNewI2C_fail(t *testing.T) {

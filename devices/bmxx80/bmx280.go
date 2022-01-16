@@ -7,7 +7,7 @@ package bmxx80
 import (
 	"time"
 
-	"periph.io/x/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/physic"
 )
 
 // sense280 reads the device's registers for bme280/bmp280.

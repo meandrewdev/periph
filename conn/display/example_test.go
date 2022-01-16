@@ -8,8 +8,8 @@ import (
 	"image"
 	"log"
 
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/host"
+	"github.com/meandrewdev/periph/conn/display"
+	"github.com/meandrewdev/periph/host"
 )
 
 func ExampleDrawer() {

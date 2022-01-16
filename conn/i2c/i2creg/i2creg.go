@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"periph.io/x/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/i2c"
 )
 
 // Opener opens an handle to a bus.

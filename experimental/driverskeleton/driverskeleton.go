@@ -7,9 +7,9 @@ package driverskeleton
 import (
 	"errors"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
+	"github.com/meandrewdev/periph"
+	"github.com/meandrewdev/periph/conn"
+	"github.com/meandrewdev/periph/conn/i2c"
 )
 
 // FIXME: Expose public symbols as relevant. Do not export more than needed!

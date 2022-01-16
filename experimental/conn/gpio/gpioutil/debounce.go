@@ -7,7 +7,7 @@ package gpioutil
 import (
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio"
 )
 
 // debounced is a gpio.PinIO where reading and edge detection pass through a

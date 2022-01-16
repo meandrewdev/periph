@@ -15,14 +15,14 @@ import (
 	"os/signal"
 	"time"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/conn/pin/pinreg"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/devices/bmxx80"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/i2c/i2creg"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/pin"
+	"github.com/meandrewdev/periph/conn/pin/pinreg"
+	"github.com/meandrewdev/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn/spi/spireg"
+	"github.com/meandrewdev/periph/devices/bmxx80"
 )
 
 func printPin(fn string, p pin.Pin) {

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"log"
 
-	"periph.io/x/periph/experimental/conn/uart"
-	"periph.io/x/periph/experimental/conn/uart/uartreg"
-	"periph.io/x/periph/host"
+	"github.com/meandrewdev/periph/experimental/conn/uart"
+	"github.com/meandrewdev/periph/experimental/conn/uart/uartreg"
+	"github.com/meandrewdev/periph/host"
 )
 
 func ExamplePins() {

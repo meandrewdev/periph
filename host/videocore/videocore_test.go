@@ -8,8 +8,8 @@ import (
 	"errors"
 	"testing"
 
-	"periph.io/x/periph/host/fs"
-	"periph.io/x/periph/host/pmem"
+	"github.com/meandrewdev/periph/host/fs"
+	"github.com/meandrewdev/periph/host/pmem"
 )
 
 func TestClose(t *testing.T) {

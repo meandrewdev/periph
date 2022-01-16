@@ -14,15 +14,15 @@ import (
 	"os"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/conn/pin/pinreg"
-	"periph.io/x/periph/devices/cap1xxx"
-	"periph.io/x/periph/host"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio/gpioreg"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/i2c/i2creg"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/pin"
+	"github.com/meandrewdev/periph/conn/pin/pinreg"
+	"github.com/meandrewdev/periph/devices/cap1xxx"
+	"github.com/meandrewdev/periph/host"
 )
 
 func mainImpl() error {

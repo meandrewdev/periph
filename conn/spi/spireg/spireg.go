@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"periph.io/x/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn/spi"
 )
 
 // Opener opens an handle to a port.

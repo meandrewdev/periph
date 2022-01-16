@@ -3,17 +3,16 @@
 Prints GPIO pins either by pin number or by functionality (e.g. configured as
 I²C or SPI pin).
 
-- Looking for the location of the pin on the header to connect your GPIO? Look
-  at [headers-list](../headers-list).
-- Looking for periph drivers loaded? Look at [periph-info](../periph-info).
-
+-   Looking for the location of the pin on the header to connect your GPIO? Look
+    at [headers-list](../headers-list).
+-   Looking for periph drivers loaded? Look at [periph-info](../periph-info).
 
 ## Examples
 
-- Use `gpio-list -help` for help
-- Use `-n` to print pins that are not connected or in INVALID state
-- Use `-f` to print the alternative functions each pin can take
-- Use `-a` to print everything at once
+-   Use `gpio-list -help` for help
+-   Use `-n` to print pins that are not connected or in INVALID state
+-   Use `-f` to print the alternative functions each pin can take
+-   Use `-a` to print everything at once
 
 The followings were captured on a Raspberry Pi 3 with I2C1, SPI0 and SPI1
 enabled, lirc (IR) enabled and Bluetooth disabled with the following in
@@ -30,8 +29,7 @@ then running:
     sudo systemctl disable hciuart
 
 For more information for enabling functional pins, see
-[![GoDoc](https://godoc.org/periph.io/x/periph/host/rpi?status.svg)](https://godoc.org/periph.io/x/periph/host/rpi).
-
+[![GoDoc](https://godoc.org/github.com/meandrewdev/periph/host/rpi?status.svg)](https://godoc.org/github.com/meandrewdev/periph/host/rpi).
 
 ### Aliases
 
@@ -53,7 +51,6 @@ with:
     SPI1_MOSI: GPIO20
     UART0_RX : GPIO15
     UART0_TX : GPIO14
-
 
 ### GPIO
 

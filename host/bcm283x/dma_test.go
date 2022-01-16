@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/gpio/gpiostream"
+	"github.com/meandrewdev/periph/conn/physic"
 )
 
 func TestDmaStatus_String(t *testing.T) {

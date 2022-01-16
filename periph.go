@@ -9,7 +9,7 @@
 // later) and https://periph.io/x/cmd.
 //
 // See https://periph.io/news/2020/a_new_start/ for more details.
-package periph // import "periph.io/x/periph"
+package periph // import "github.com/meandrewdev/periph"
 
 import (
 	"errors"

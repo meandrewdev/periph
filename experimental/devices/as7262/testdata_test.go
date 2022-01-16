@@ -7,8 +7,8 @@ package as7262
 import (
 	"time"
 
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/i2c/i2ctest"
+	"github.com/meandrewdev/periph/conn/physic"
 )
 
 // Expected response from sensorTestCaseValidRead or

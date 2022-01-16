@@ -7,12 +7,12 @@ package mcp23xxx
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spitest"
+	"github.com/meandrewdev/periph/conn/conntest"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio/gpioreg"
+	"github.com/meandrewdev/periph/conn/i2c/i2ctest"
+	"github.com/meandrewdev/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn/spi/spitest"
 )
 
 func TestMCP23017_out(t *testing.T) {

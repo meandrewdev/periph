@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/mmr"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/devices/lepton/internal"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/i2c/i2ctest"
+	"github.com/meandrewdev/periph/conn/mmr"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/devices/lepton/internal"
 )
 
 func TestStatusBit(t *testing.T) {

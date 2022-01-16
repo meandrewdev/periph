@@ -21,7 +21,7 @@ package black
 import (
 	"strings"
 
-	"periph.io/x/periph/host/distro"
+	"github.com/meandrewdev/periph/host/distro"
 )
 
 // Present returns true if the host is a BeagleBone Black or BeagleBone Black

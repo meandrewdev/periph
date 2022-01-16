@@ -2,13 +2,14 @@
 // Use of this source code is governed under the Apache License, Version 2.0
 // that can be found in the LICENSE file.
 
+//go:build periphextra
 // +build periphextra
 
 package main
 
 import (
+	"github.com/meandrewdev/periph"
 	"periph.io/x/extra/hostextra"
-	"periph.io/x/periph"
 )
 
 func hostInit() (*periph.State, error) {

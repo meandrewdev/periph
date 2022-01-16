@@ -7,8 +7,8 @@ package i2creg
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/physic"
 )
 
 func TestOpen(t *testing.T) {

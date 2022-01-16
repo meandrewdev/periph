@@ -9,9 +9,9 @@ import (
 	"flag"
 	"fmt"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/host/bcm283x"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio/gpioreg"
+	"github.com/meandrewdev/periph/host/bcm283x"
 )
 
 // Benchmark is imported by periph-smoketest.

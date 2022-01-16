@@ -4,7 +4,7 @@
 
 package onewire
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/meandrewdev/periph/conn/pin"
 
 // Well known pin functionality.
 const (

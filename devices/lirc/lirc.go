@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/ir"
+	"github.com/meandrewdev/periph/conn"
+	"github.com/meandrewdev/periph/conn/gpio/gpioreg"
+	"github.com/meandrewdev/periph/conn/ir"
 )
 
 // New returns a IR receiver / emitter handle.

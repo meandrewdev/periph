@@ -11,9 +11,9 @@ import (
 	"image/color"
 	"image/draw"
 
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn/display"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/spi"
 )
 
 const (

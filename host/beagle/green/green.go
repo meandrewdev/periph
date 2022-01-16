@@ -20,12 +20,12 @@ import (
 	"errors"
 	"strings"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/conn/pin/pinreg"
-	"periph.io/x/periph/host/distro"
-	"periph.io/x/periph/host/sysfs"
+	"github.com/meandrewdev/periph"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/pin"
+	"github.com/meandrewdev/periph/conn/pin/pinreg"
+	"github.com/meandrewdev/periph/host/distro"
+	"github.com/meandrewdev/periph/host/sysfs"
 )
 
 // Headers found on BeagleBone Green.

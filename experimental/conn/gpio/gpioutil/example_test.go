@@ -9,10 +9,10 @@ import (
 	"log"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/experimental/conn/gpio/gpioutil"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio/gpioreg"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/experimental/conn/gpio/gpioutil"
 )
 
 func ExampleDebounce() {

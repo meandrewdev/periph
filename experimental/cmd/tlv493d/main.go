@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"log"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/experimental/devices/tlv493d"
-	"periph.io/x/periph/host"
+	"github.com/meandrewdev/periph/conn/i2c/i2creg"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/experimental/devices/tlv493d"
+	"github.com/meandrewdev/periph/host"
 )
 
 func main() {

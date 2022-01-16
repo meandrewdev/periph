@@ -16,13 +16,13 @@ import (
 	"image/color"
 	"image/draw"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
+	"github.com/meandrewdev/periph/conn"
+	"github.com/meandrewdev/periph/conn/display"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/spi"
+	"github.com/meandrewdev/periph/devices/ssd1306/image1bit"
 )
 
 const (

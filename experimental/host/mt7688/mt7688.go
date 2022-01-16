@@ -7,8 +7,8 @@ package mt7688
 import (
 	"strings"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/host/distro"
+	"github.com/meandrewdev/periph"
+	"github.com/meandrewdev/periph/host/distro"
 )
 
 // Present returns true if a mt7688 processor is detected.

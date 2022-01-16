@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"periph.io/x/periph/conn/onewire"
+	"github.com/meandrewdev/periph/conn/onewire"
 )
 
 // Opener opens an handle to a bus.

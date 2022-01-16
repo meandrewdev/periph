@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/experimental/conn/analog"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/pin"
+	"github.com/meandrewdev/periph/experimental/conn/analog"
 )
 
 // I2CAddr is the default I2C address for the ADS1x15 components.

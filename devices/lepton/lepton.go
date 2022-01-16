@@ -13,13 +13,13 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/devices/lepton/cci"
-	"periph.io/x/periph/devices/lepton/image14bit"
-	"periph.io/x/periph/devices/lepton/internal"
+	"github.com/meandrewdev/periph/conn"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/spi"
+	"github.com/meandrewdev/periph/devices/lepton/cci"
+	"github.com/meandrewdev/periph/devices/lepton/image14bit"
+	"github.com/meandrewdev/periph/devices/lepton/internal"
 )
 
 // Metadata is constructed from telemetry data, which is sent with each frame.

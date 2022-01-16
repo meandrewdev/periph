@@ -13,10 +13,10 @@ import (
 	"sort"
 	"strconv"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/pin/pinreg"
-	"periph.io/x/periph/host/odroidc1"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio/gpioreg"
+	"github.com/meandrewdev/periph/conn/pin/pinreg"
+	"github.com/meandrewdev/periph/host/odroidc1"
 )
 
 // SmokeTest is imported by periph-smoketest.

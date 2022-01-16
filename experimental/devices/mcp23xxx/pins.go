@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/pin"
 )
 
 // Pin extends gpio.PinIO interface with features supported by MCP23xxx devices.

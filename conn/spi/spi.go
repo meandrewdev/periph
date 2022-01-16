@@ -5,7 +5,7 @@
 // Package spi defines the API to communicate with devices over the SPI
 // protocol.
 //
-// As described in https://periph.io/x/periph/conn#hdr-Concepts, periph.io uses
+// As described in https://github.com/meandrewdev/periph/conn#hdr-Concepts, periph.io uses
 // the concepts of Bus, Port and Conn.
 //
 // In the package spi, 'Bus' is not exposed, as it would be SPI bus number
@@ -25,9 +25,9 @@ import (
 	"io"
 	"strconv"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/physic"
 )
 
 // Mode determines how communication is done.

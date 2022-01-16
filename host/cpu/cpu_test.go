@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"periph.io/x/periph/host/fs"
+	"github.com/meandrewdev/periph/host/fs"
 )
 
 func TestMaxSpeed_fail(t *testing.T) {

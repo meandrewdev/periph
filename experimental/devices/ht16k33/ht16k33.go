@@ -7,7 +7,7 @@ package ht16k33
 import (
 	"errors"
 
-	"periph.io/x/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/i2c"
 )
 
 // I2CAddr i2c default address.

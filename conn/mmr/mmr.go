@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"periph.io/x/periph/conn"
+	"github.com/meandrewdev/periph/conn"
 )
 
 // Dev8 is a connection that exposes memory mapped registers in a 8bit address

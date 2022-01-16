@@ -11,11 +11,11 @@ import (
 	"image/color"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/meandrewdev/periph/conn"
+	"github.com/meandrewdev/periph/conn/display"
+	"github.com/meandrewdev/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/spi"
 )
 
 // Color is used to define which model of inky is being used, and also for

@@ -7,7 +7,7 @@ package pru
 import (
 	"errors"
 
-	"periph.io/x/periph"
+	"github.com/meandrewdev/periph"
 )
 
 // Present returns true if an Texas Instrument PRU-ICSS processor is detected.

@@ -10,7 +10,7 @@ package allwinnersmoketest
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/gpio"
+	"github.com/meandrewdev/periph/conn/gpio"
 )
 
 // runFastGPIOBenchmark runs the standardized GPIO benchmark for this specific

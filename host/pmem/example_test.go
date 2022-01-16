@@ -7,7 +7,7 @@ package pmem_test
 import (
 	"log"
 
-	"periph.io/x/periph/host/pmem"
+	"github.com/meandrewdev/periph/host/pmem"
 )
 
 func ExampleMapAsPOD() {

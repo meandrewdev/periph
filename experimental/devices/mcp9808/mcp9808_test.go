@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/mmr"
-	"periph.io/x/periph/conn/physic"
+	"github.com/meandrewdev/periph/conn/i2c"
+	"github.com/meandrewdev/periph/conn/i2c/i2ctest"
+	"github.com/meandrewdev/periph/conn/mmr"
+	"github.com/meandrewdev/periph/conn/physic"
 )
 
 func TestNew(t *testing.T) {
